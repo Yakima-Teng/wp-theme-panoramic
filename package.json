@@ -4,6 +4,7 @@
   "description": "A wordpress theme for self-use, build on base of the wordpress theme Panoramic",
   "main": "README.md",
   "scripts": {
+    "deploy": "gulp deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
