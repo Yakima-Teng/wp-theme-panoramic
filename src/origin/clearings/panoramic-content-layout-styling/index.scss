@@ -1,0 +1,67 @@
+/*--------------------------------------------------------------
+8.2 Panoramic Content Layout Styling
+--------------------------------------------------------------*/
+
+.woocommerce #container,
+.woocommerce-page #container,
+.content-area {
+	width: 75%;
+	float: left;
+	padding: 0 2% 0 0;
+}
+
+.widget-area {
+	width: 25%;
+	float: left;
+	padding: 15px 0 0 2%;
+}
+
+.content-area.full-width,
+body.full-width #container {
+	width: 100% !important;
+	padding: 0 !important;
+}
+body.full-width .widget-area {
+	display: none;
+}
+
+.home .widget-area {
+    padding-top: 22px !important;
+}
+.woocommerce .widget-area,
+.woocommerce-page .widget-area {
+    padding-top: 45px !important;
+}
+.woocommerce-cart .widget-area,
+.woocommerce-checkout .widget-area,
+.woocommerce-account .widget-area,
+.single-product.woocommerce .widget-area,
+.single-product.woocommerce-page .widget-area {
+    padding-top: 15px !important;
+}
+.blog .widget-area {
+    padding-top: 15px !important;
+}
+
+.page-template-template-left-sidebar .content-area {
+	width: 75%;
+	float: left;
+	padding: 0 0 0 2%;
+}
+
+.page-template-template-left-sidebar .widget-area {
+	width: 25%;
+	float: left;
+	padding: 15px 2% 0 0;
+}
+
+.page-template-template-full-width .content-area {
+	float: none;
+	width: 100%;
+	padding: 0;
+}
+
+.page-template-template-full-width .content-area,
+.page-template-template-full-width .widget-area {
+    box-shadow: none;
+}

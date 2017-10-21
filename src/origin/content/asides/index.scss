@@ -1,0 +1,28 @@
+/*--------------------------------------------------------------
+10.2 Asides
+--------------------------------------------------------------*/
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+	display: none;
+}
+
+article .entry-title {
+    margin: 0 0 8px;
+}
+article .entry-meta {
+    font-size: 0.95em;
+    font-style: italic;
+}
+article .cat-links {
+    margin: 0 10px 0 0;
+}
+article .tags-links {
+    margin: 0;
+}
+article .entry-footer {
+    font-size: 0.95em;
+    font-style: italic;
+}
+article .comments-link {
+	display: block;
+}

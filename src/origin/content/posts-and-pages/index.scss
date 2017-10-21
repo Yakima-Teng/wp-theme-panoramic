@@ -1,0 +1,152 @@
+/*--------------------------------------------------------------
+10.0 Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+10.1 Posts and pages
+--------------------------------------------------------------*/
+
+.sticky {
+}
+
+.hentry,
+.search-results article {
+	border-bottom: 1px solid #e0e0e0;
+	margin: 0 0 30px;
+	padding: 0 0 30px;
+}
+.page .hentry {
+    border: 0;
+    margin: 0 0 25px;
+    padding: 0;
+}
+
+.byline,
+.updated:not(.published) {
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.site-content {
+	margin-top: 25px; 	
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+.page-content img,
+.entry-content img,
+.entry-summary img {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+.wp-caption img {
+    box-shadow: none;
+}
+
+/* -------- Post Images Carousel -------- */
+.blog-post-side-layout .post-loop-images {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+.post-no-img .post-loop-images {
+    display: none;
+}
+.blog-post-side-layout .post-loop-content {
+    width: 67.5%;
+    padding: 0 0 8px 0;
+    float: right;
+}
+.blog-post-side-layout.post-no-img .post-loop-content {
+    width: 100%;
+    padding: 0 0 8px 0;
+    float: none;
+}
+
+.post-loop-images-carousel-wrapper {
+    position: relative;
+}
+.post-loop-images-carousel-wrapper-remove {
+    background-image: url(library/images/loader.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 220px;
+    overflow: hidden;
+}
+.post-loop-images-prev,
+.post-loop-images-next {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 3px;
+    cursor: pointer;
+    height: 38px;
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    line-height: 22px;
+    margin: -16px 0 0;
+    padding: 5px 0 0;
+    position: absolute;
+    top: 50%;
+    width: 34px;
+    z-index: 9;
+    opacity: 0;
+    transform: scale(0.8);
+    
+    -webkit-transition: all 0.2s ease 0s;
+     -moz-transition: all 0.2s ease 0s;
+      -ms-transition: all 0.2s ease 0s;
+       -o-transition: all 0.2s ease 0s;
+          transition: all 0.2s ease 0s;
+}
+.post-loop-images-prev {
+    left: 8px;
+}
+.post-loop-images-next {
+    right: 8px;
+}
+.blog-post-side-layout .post-loop-images-carousel {
+    
+}
+.post-loop-images-carousel-remove {
+    height: 220px !important;
+    visibility: hidden !important;
+    overflow: hidden;
+}
+.post-loop-images-carousel div {
+    float: left;
+    text-align: center;
+    margin: 0 0 15px;
+}
+.blog-post-side-layout .post-loop-images-carousel div {
+    margin: 0;
+}
+.post-loop-images-carousel img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.hentry:hover .post-loop-images-prev,
+.hentry:hover .post-loop-images-next {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.single .entry-thumbnail {
+    margin: 20px 0;
+    text-align: center;
+}

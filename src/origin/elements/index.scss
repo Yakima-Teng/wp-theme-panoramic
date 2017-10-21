@@ -1,0 +1,103 @@
+/*--------------------------------------------------------------
+3.0 Elements
+--------------------------------------------------------------*/
+hr {
+  background-color: #d0d2d4;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
+}
+
+ul,
+ol {
+  margin: 0 0 1.5em 3em;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+li > ul,
+li > ol {
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 1.5em 1.5em;
+}
+
+img {
+  height: auto; /* Make sure images are scaled correctly. */
+  max-width: 100%; /* Adhere to container width. */
+}
+
+figure {
+  margin: 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+table {
+  margin: 0 0 1.5em;
+  width: 100%;
+}
+
+th {
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: 300;
+  line-height: 1.0em;
+  word-wrap: normal;
+  color: #006489;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: .55em;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: .65em;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: .8em;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 1.1em;
+}
+
+h5 {
+  font-size: 16px;
+  margin-bottom: 1.3em;
+}
+
+h6 {
+  font-size: 14px;
+  margin-bottom: 1.4em;
+}
+
+.entry-content code {
+  display: block;
+  background: #f7f7f7;
+  border: 1px solid #D8D8D8;
+  padding: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.09);
+  margin: 5px 0;
+  overflow-x: auto;
+}

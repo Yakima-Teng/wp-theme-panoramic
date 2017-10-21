@@ -1,5 +1,7 @@
+'use strict';
 const gulp = require('gulp');
 const scp = require('gulp-scp2');
+const sass = require('gulp-sass');
 const config = require('./config');
 
 gulp.task('deploy', () => {
@@ -13,4 +15,17 @@ gulp.task('deploy', () => {
     .on('error', e => {
       console.log(e);
     })
+});
+
+gulp.task('sass', () => {
+  return gulp.src('./src/style.scss')
+    .pipe(sass.sync({
+      outputStyle: 'compressed',
+    })
+    .on('error', sass.logError))
+    .pipe(gulp.dest('./panoramic'))
+});
+
+gulp.task('sass:watch', () => {
+  gulp.watch('./src/**/*.scss', ['sass']);
 });

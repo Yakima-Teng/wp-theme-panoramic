@@ -1,0 +1,24 @@
+/*--------------------------------------------------------------
+12.1 Captions
+--------------------------------------------------------------*/
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 0 auto;
+}
+
+.wp-caption-text {
+	text-align: center;
+	background-color: #FCFCFC;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08) inset;
+	border-radius: 0 0 3px 3px;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0;
+	padding: 6px 10px;
+}

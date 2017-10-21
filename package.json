@@ -4,6 +4,7 @@
   "description": "A wordpress theme for self-use, build on base of the wordpress theme Panoramic",
   "main": "README.md",
   "scripts": {
+    "dev": "gulp sass:watch",
     "deploy": "gulp deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,8 +22,11 @@
     "url": "https://github.com/Yakima-Teng/wp-theme-panoramic/issues"
   },
   "homepage": "https://github.com/Yakima-Teng/wp-theme-panoramic#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
     "gulp-scp2": "^0.2.0"
   }
 }

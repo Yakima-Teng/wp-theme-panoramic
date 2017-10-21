@@ -1,0 +1,68 @@
+/*--------------------------------------------------------------
+9.0 Widgets
+--------------------------------------------------------------*/
+.widget {
+	margin: 0 0 1.5em;
+}
+
+.widget-area .widget {
+    margin: 0 0 25px;
+}
+
+/* Make sure select elements fit in widgets */
+.widget select {
+	max-width: 100%;
+	width: 89.5%;
+	height: 33px;
+	box-sizing: border-box;
+	vertical-align: top;
+	padding: 2px 8px;
+	margin: 3px 0 0 0;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+.widget-area .widget .search-field {
+    width: 100%;
+	height: 33px;
+	width: 77%;
+    box-sizing: border-box;
+    padding: 2px 8px;
+	vertical-align: top;
+}
+
+/* Search widget */
+.widget_search .search-submit {
+	display: inline-block;
+}
+
+.widget-area .widget h2 {
+    padding: 0 0 6px;
+    margin: 0 0 10px 0;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.widget-area .widget ul {
+    margin: 0;
+    padding: 0;
+}
+.widget-area .widget ul li {
+    margin: 0 0 2px;
+    padding: 0;
+    list-style-type: none;
+}
+.widget-area .widget ul li a {
+}
+
+.widget-area .widget ul ul {
+    margin: 3px 0 3px 15px;
+}
+.widget-area .widget ul ul li {
+    margin: 0;
+}
+.widget-area .widget ul ul ul {
+    margin: 3px 0 3px 30px;
+}
