@@ -1,0 +1,28 @@
+.decent-comments {
+  display: inline;
+  .comment {
+    border-bottom: 1px dotted;
+  }
+  .comment-author {
+    &:after {
+      content: ':';
+    }
+  }
+  .comment-body {
+    display: inline;
+  }
+  .comment-excerpt {
+    display: inline;
+  }
+}
+.comment-form-comment textarea {
+  width: 100%;
+}
+.entry-content {
+	word-break: break-all;
+}
+.panoramic-header-layout-standard {
+  .description {
+    padding: 10px 0 0;
+  }
+}
